@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<Hotels>
+	<Hotel Stars="***">
+		<Name>Hyatt Place Tempe-Phoenix-University</Name>
+		<Contact>
+			<Phone>4802071578</Phone>
+			<Email>GM.Tempe@hyatt.com</Email>
+		</Contact>
+		<Address>
+			<Number>601</Number>
+			<Street>E 6th St</Street>
+			<City>Tempe</City>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Stars="****">
+		<Name>Arizona Grand Resort and Spa</Name>
+		<Contact>
+			<Phone>8778004888</Phone>
+			<Email>support@AZGrandResort.com</Email>
+		</Contact>
+		<Address BusLines="44, 87, 124">
+			<Number>8000</Number>
+			<Street>Arizona Grand Pkwy</Street>
+			<City>Tempe</City>
+			<Zip>85044</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Stars="****">
+		<Name>Tempe Mission Palms</Name>
+		<Contact>
+			<Phone>4808941400</Phone>
+			<Email>support@MissionPalms.com</Email>
+		</Contact>
+		<Address>
+			<Number>60</Number>
+			<Street>E 5th St</Street>
+			<City>Tempe</City>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Stars="***">
+		<Name>Phoenix – Tempe Inn</Name>
+		<Contact>
+			<Phone>4807842233</Phone>
+			<Email>support@TempeInn.com</Email>
+		</Contact>
+		<Address BusLines="23, 103, 244">
+			<Number>670</Number>
+			<Street>N Scottsdale Rd</Street>
+			<City>Tempe</City>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Stars="***">
+		<Name>Courtyard by Marriott Mesa at Wrigleyville West</Name>
+		<Contact>
+			<Phone>4805908000</Phone>
+			<Email>support@Marriott.com</Email>
+		</Contact>
+		<Address>
+			<Number>2224</Number>
+			<Street>W Rio Salado Pkwy</Street>
+			<City>Mesa</City>
+			<Zip>85201</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
