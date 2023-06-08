@@ -1,0 +1,186 @@
+
+:root{
+    --primary-color: #74C69D;
+    --grey-background: #F2F2F2;
+    --grey-font: #525252;
+}
+
+body{
+    background: var(--grey-background);
+    //font-family:
+    .mainBoard{
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .mainContainer{
+        margin: 5em auto;
+        background: white;
+        justify-content: center;
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .fbContainer{
+        background: #3b5998;
+        color: white;
+        padding: .8em 0;
+        cursor: pointer;
+        border: 1px solid black;
+        display: flex;
+        text-align: center;
+
+        svg{
+            position: relative;
+            left: 20px;
+        }
+        h6{
+            position: relative;
+            left: 40px;
+            top: 4px;
+        }
+
+    } 
+    .login-spacing{
+        display: block;
+        height: 10px;
+        content: "";
+        width: 100%; 
+        margin: 0 auto;   
+    }
+    .googleContainer{
+        color: var(--grey-font);
+        padding: .5em 0;
+        border: 1px solid black;
+        cursor: pointer;
+        display: flex;
+        position: relative;
+
+        img{
+            position: relative;
+            left: 17px;
+        }
+        h6{
+            position: relative;
+            left: 40px;
+            top: 6px;
+        }
+
+    } 
+
+    .appleContainer{
+        color: black;
+        padding: .8em 0;
+        border: 1px solid black;
+        cursor: pointer;
+        display: flex;
+        margin-bottom: 1.5em;
+
+        svg{
+            position: relative;
+            left: 20px;
+        }
+        h6{
+            position: relative;
+            left: 50px;
+            top: 4px;
+        }
+
+    }
+
+    .orLineContainer{
+        margin-top: -1em;
+        margin-bottom: 1em;
+        display: table;
+        width: 100%;
+        border-spacing: 2px 10px;
+        
+        .left-or-container, .right-or-container{
+            border-bottom: 1px solid black;
+            margin-bottom: 1em;
+            padding: 0em 1em;
+            display: table-cell;
+        }
+    }
+    .passwordTF{
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+
+    .primary-cta{
+        background: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        padding: .2em;
+        width: 100%;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+    
+    .forgetPW, .signup{
+        color: var(--primary-color);
+    }
+    
+    .remember, .notMember{
+        color: var(--grey-font);
+    }
+    
+    .line, .orContainer{
+        h4{
+            margin: 0;
+        }
+    }
+    
+    .lineContainer{
+        margin: .6em 0;
+        border-bottom: 1px solid black;
+    }
+    .signupContainer{
+        margin-bottom: 1em;
+    }
+
+    .rememberInfoContainer{
+        display: flex;
+        margin: 1em auto .2em auto;
+        justify-content: center;
+        place-content: space-between;
+        cursor: pointer;
+        p{
+            margin: .5em;
+        }
+
+    } 
+
+    .signupContainer{
+        display: flex;
+        justify-content: center;
+        place-content: space-between;
+        cursor: pointer;
+        p{
+            margin: .2em;
+        }
+    }
+}
+h6{
+    margin: 0;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 23px;
+}
+
+.fbContainer, .contButton{
+    opacity: 0.85;
+}
+
+.fbContainer:hover, .contButton:hover{
+    opacity: 1;
+}
+
+.googleContainer:hover, .appleContainer:hover{
+    background: #F9F9F9;
+}
